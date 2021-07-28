@@ -42,7 +42,7 @@ public class Test extends GenericUDTF {
         //将jsonAray切分
         for (int i = 0; i < jsonArray.length(); i++) {
             String jsonStr = jsonArray.getString(i);
-            //因为初始化方法里面限定了返回值类型是struct结构体
+            //因为初始化方法里面限定了返回值类型是struct结构
             //所以在这个地方不能直接输出jsonStr,需要用个字符串数组包装下
             String[] result = new String[1];
             result[0] = jsonStr;
