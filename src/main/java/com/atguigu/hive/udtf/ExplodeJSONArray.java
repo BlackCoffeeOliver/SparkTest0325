@@ -13,6 +13,7 @@ import org.json.JSONArray;
 
 import java.util.ArrayList;
 
+//自定义UDTF函数
 public class ExplodeJSONArray extends GenericUDTF {
 
     @Override
